@@ -37,6 +37,8 @@ Add Name varchar(20), Type varchar(20)
 Update AddressBook set Type = 'FriendsBook', Name = 'Friend' where FirstName in ('Binita','Bipan')
 Update AddressBook set Type = 'FamilyBook', Name = 'Family' where FirstName in ('Biplab','Bikash')
 
-
+select * from AddressBook
 select count(Type) from AddressBook 
 select count(ID) as FamilyContact from AddressBook where Type = 'FamilyBook';
+
+insert into AddressBook values('Bimal','Bose','Kolkata','Kolkata','WB',784125,9678450916,'bip@gmail.com','Friend','FriendBook')
