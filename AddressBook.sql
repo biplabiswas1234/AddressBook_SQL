@@ -15,4 +15,10 @@ create table AddressBook
 );
 
 
+insert into AddressBook values('Biplab','Biswas','No 2 Barjhar','Mangaldoi','Assam',784114,9954979057,'biplabiswas1234@gmail.com');
+insert into AddressBook values('Bipan','Biswas','No 1 Barjhar','Guwahati','Assam',784114,9954997075,'bbiswas1234@gmail.com');
+insert into AddressBook values('Bikash','Biswas','No 2 Barjhar','Tezpur','Assam',784114,9954979087,'bipbiswas1234@gmail.com');
+insert into AddressBook values('Billu','Biswas','No 2 Barjhar','Silchar','Assam',784114,9954979098,'biplabiswas@gmail.com');
+insert into AddressBook values('Binita','Biswas','No 2 Barjhar','Dibrugarh','Assam',784114,9954979060,'biplab@gmail.com');
+select * from AddressBook
 
