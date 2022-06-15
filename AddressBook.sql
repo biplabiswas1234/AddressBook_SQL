@@ -42,3 +42,5 @@ select count(Type) from AddressBook
 select count(ID) as FamilyContact from AddressBook where Type = 'FamilyBook';
 
 insert into AddressBook values('Bimal','Bose','Kolkata','Kolkata','WB',784125,9678450916,'bip@gmail.com','Friend','FriendBook')
+
+insert into AddressBook values('Bimu','Bose','Kolkata','Kolkata','WB',784125,9678450916,'bimu@gmail.com','Family','FamilyBook')
