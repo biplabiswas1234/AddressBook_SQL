@@ -23,3 +23,5 @@ insert into AddressBook values('Binita','Biswas','No 2 Barjhar','Dibrugarh','Ass
 select * from AddressBook
 
 update AddressBook set Zip = 784115 where FirstName='Binita';
+
+delete from AddressBook where FirstName ='Billu'
