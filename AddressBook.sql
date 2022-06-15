@@ -27,3 +27,5 @@ update AddressBook set Zip = 784115 where FirstName='Binita';
 delete from AddressBook where FirstName ='Billu'
 
 select * from Addressbook where Address='No 1 Barjhar'
+
+select count(ID) from AddressBook where Address='No 2 Barjhar' and State='Assam'
