@@ -25,3 +25,5 @@ select * from AddressBook
 update AddressBook set Zip = 784115 where FirstName='Binita';
 
 delete from AddressBook where FirstName ='Billu'
+
+select * from Addressbook where Address='No 1 Barjhar'
