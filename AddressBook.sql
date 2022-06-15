@@ -19,7 +19,7 @@ insert into AddressBook values('Biplab','Biswas','No 2 Barjhar','Mangaldoi','Ass
 insert into AddressBook values('Bipan','Biswas','No 1 Barjhar','Guwahati','Assam',784114,9954997075,'bbiswas1234@gmail.com');
 insert into AddressBook values('Bikash','Biswas','No 2 Barjhar','Tezpur','Assam',784114,9954979087,'bipbiswas1234@gmail.com');
 insert into AddressBook values('Billu','Biswas','No 2 Barjhar','Silchar','Assam',784114,9954979098,'biplabiswas@gmail.com');
-insert into AddressBook values('Binita','Biswas','No 2 Barjhar','Dibrugarh','Assam',784114,9954979060,'biplab@gmail.com');
+insert into AddressBook values('Binita','Biswas','No 2 Barjhar','Mangaldoi','Assam',784114,9954979060,'biplab@gmail.com');
 select * from AddressBook
 
 update AddressBook set Zip = 784115 where FirstName='Binita';
@@ -29,3 +29,5 @@ delete from AddressBook where FirstName ='Billu'
 select * from Addressbook where Address='No 1 Barjhar'
 
 select count(ID) from AddressBook where Address='No 2 Barjhar' and State='Assam'
+
+select * from AddressBook where City = 'Mangaldoi' order by FirstName
