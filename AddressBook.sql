@@ -31,3 +31,8 @@ select * from Addressbook where Address='No 1 Barjhar'
 select count(ID) from AddressBook where Address='No 2 Barjhar' and State='Assam'
 
 select * from AddressBook where City = 'Mangaldoi' order by FirstName
+
+Alter table AddressBook
+Add Name varchar(20), Type varchar(20)
+Update AddressBook set Type = 'FriendsBook', Name = 'Friend' where FirstName in ('Binita','Bipan')
+Update AddressBook set Type = 'FamilyBook', Name = 'Family' where FirstName in ('Biplab','Bikash')
