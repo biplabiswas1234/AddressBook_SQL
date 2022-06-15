@@ -22,3 +22,4 @@ insert into AddressBook values('Billu','Biswas','No 2 Barjhar','Silchar','Assam'
 insert into AddressBook values('Binita','Biswas','No 2 Barjhar','Dibrugarh','Assam',784114,9954979060,'biplab@gmail.com');
 select * from AddressBook
 
+update AddressBook set Zip = 784115 where FirstName='Binita';
